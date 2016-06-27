@@ -1,0 +1,12 @@
+$error-color: #a94442;
+$error-font-size: 14px;
+
+.error-text {
+  display: none;
+  color: $error-color;
+  font-size: $error-font-size;
+
+  .has-error &.help-block {
+    display: block;
+  }
+}

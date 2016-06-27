@@ -1,0 +1,6 @@
+.error-text {
+  display: none;
+  color: #a94442;
+  font-size: 14px; }
+  .has-error .error-text.help-block {
+    display: block; }
